@@ -1,0 +1,148 @@
+ *{
+   top:0;
+   margin:0;
+ }
+ .nav-menu{
+    margin:10px;
+    position: fixed;
+    display:flex;
+    background-color: white;
+    box-shadow: -5px 5px 10px grey;
+    border-radius: 5px;
+    width: 99%;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    z-index: 1;
+ }
+ .Home{
+    width: 1350px;
+    height: 100%;
+    background-image: url("home-image.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size:100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+.item{
+   float:left;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: grey;
+   font-size: large;
+}
+a{
+   text-decoration: none;
+   color: grey;
+}
+.home-item{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+#h1{
+   padding: 5px;
+   color: tomato;
+   font-size: 35pt;
+}
+#p1{
+   padding: 5px;
+   font-size: 18pt;
+   color: lime;
+}
+#b1{
+   margin: 15px;
+   padding: 3px;
+   font-size: 18pt;
+   border-radius: 3px;
+   color: lightslategrey;
+}
+.heading{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   font-size:50pt;
+   width: 1350px;
+}
+.img1{
+  height: 378px;
+  border-radius: 20px;
+  margin: inherit;
+  box-shadow: -5px 5px 10px grey;
+}
+.img2{
+   height:378;
+   border-radius: 20px;
+   box-shadow: -5px 5px 10px grey;
+}
+.thanjavur{
+   display: flex;
+   width:1300px;
+}
+.text1{
+   width: 55%;
+   height: 278px;
+   margin: 40px;
+   position: relative;
+   top:50;
+}
+.img{
+   display: flex;
+   margin:30px;
+   justify-content: space-evenly;
+}
+.trips{
+   display: flex;
+   justify-content: space-between;
+   margin-top:50px;
+   margin-left:100px;
+   margin-right: 100px;
+   margin-bottom: 50px;
+   gap: 40px;
+   width: 1100px;
+}
+.cards1,.cards2,.cards3{
+   box-shadow: -2px 2px 5px rgb(107, 106, 106);
+}
+#r1{
+   text-align: center;
+}
+#p2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18pt;
+   padding: 10px;
+   width: 1325px;
+}
+#foot{
+   background-color: black;
+   height: 300px;
+   color: white;
+   padding: 20px;
+   width: 1300px;
+}
+#he1{
+   color: white;
+   font-family: cursive;
+}
+.cl1{
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   gap: 30px;
+}
+li{
+   padding: 30px;
+}
+.con{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.num{
+   text-align: end;
+}
